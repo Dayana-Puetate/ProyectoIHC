@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos de Identidad</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><img class="logo" src="images/escudo.png" alt=""></a>
+    </header>
+    <br><br>
+    <p>
+    <h2>Formulario de Pérdida de Documento de Identidad</h2>
+    </p>
+    <br>
+    <div class="contenedor">
+        <hr>
+        <br><br>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <section>
+                <div class="left-column">
+                    <br>
+                    <p><label>Tipo de identificación:</label></p>
+                    <br>
+                    <p> <label>Número de identificación:</label></p>
+                    <br>
+                    <p> <label>Nombres:</label></p>
+                    <br>
+                    <p> <label>Apellidos:</label></p>
+                    <br>
+                    <p><label>Provincia:</label></p>
+                    <br>
+                </div>
+                <div class="right-column">
+                    <br>
+                    <p><select style="width: 172px;" name="tipoIdentificacion">
+                            <option>Seleccione</option>
+                            <option>Cédula de identidad</option>
+                        </select>
+                    </p>
+                    <br>
+                    <p><input type="text" id="numero" /></p>
+                    <br>
+                    <p><input type="text" id="nombres" /></p>
+                    <br>
+                    <p><input type="text" id="apellidos" /></p>
+                    <br>
+                    <p><select style="width: 172px;" name="provincia">
+                            <option>Seleccione</option>
+                            <option>AZUAY</option>
+                            <option>BOLIVAR</option>
+                            <option>CAÑAR</option>
+                            <option>CARCHI</option>
+                            <option>CHIMBORAZO</option>
+                            <option>COTOPAXI</option>
+                            <option>EL ORO</option>
+                            <option>ESMERALDAS</option>
+                            <option>GALÁPAGOS</option>
+                        </select>
+                    </p>
+                    <br>
+                </div>
+            </section>
+        </fieldset>
+        <br>
+        <!--DOS-->
+        <fieldset>
+            <legend>Datos del Lugar de Pérdida</legend>
+            <section>
+                <div class="left-column">
+                    <br>
+                    <p><label>Fecha de Pérdida:</label></p>
+                    <br>
+                    <p> <label>Provincia</label></p>
+                    <br>
+                    <p> <label>Cantón:</label></p>
+                    <br>
+                    <p> <label>Circunstancia de pérdida:</label></p>
+                    <br><br>
+                </div>
+                <div class="right-column">
+                    <br>
+                    <p><input type="datetime" id="fecha" /></p>
+                    <br>
+                    <p><select style="width: 172px;" name="provincia">
+                            <option>Seleccione</option>
+                            <option>AZUAY</option>
+                            <option>BOLIVAR</option>
+                            <option>CAÑAR</option>
+                            <option>CARCHI</option>
+                            <option>CHIMBORAZO</option>
+                            <option>COTOPAXI</option>
+                            <option>EL ORO</option>
+                            <option>ESMERALDAS</option>
+                            <option>GALÁPAGOS</option>
+                        </select>
+                    </p>
+                    <br>
+                    <p><input type="text" id="nombres" /></p>
+                    <br>
+                    <textarea cols="22" rows="2">Área de texto!</textarea>
+                    <br><br>
+                </div>
+            </section>
+        </fieldset>
+        <br>
+        <fieldset>
+            <br>
+            <section>
+                <div class="checkBox-left">
+                    <input type="checkbox">
+                    <br>
+                </div>
+                <div class="chechBox-right">
+                    Declaro que toda la información constante en el presente formulario es verídica, y asumo cualquier
+                    tipo de
+                    responsabilidad por error o falsedad en la misma.
+                    <br>
+                </div>
+            </section>
+            <br>
+            <!--<section>
+            <div class="botones">
+                <p>
+                    <a href="#" class="enviar">Enviar Formulario</a>
+                    <a class="botones">Borrar Formulario</a>
+                </p>
+                <br>
+            </div>
+            </section>-->
+            <div class="botones">
+                <p>
+                    <a href="#" class="enviar"><input type="button" value="Enviar Formulario"></a>
+                    <input type="button" value="Borrar Formulario">
+                </p>
+                <br>
+            </div>
+        </fieldset>
+    </div>
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <p class="close">[ X ]</p>
+            <div class="modal-textos">
+                <h2> No te pierdas de grandes estrenos</h2>
+                <p>"La felicidad esta atravez de tus ojos"</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <center><a href="index.html">Volver a Página Principal</a><br></center>
+    <br><br>
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Desarrollado por Dayana Puetate & Marco López</h3>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
